@@ -1,3 +1,14 @@
+[B]4.8.3[/B]
+
+- Fix Original/Localised title
+- Fix 'Movie' and 'TV Shows' buttons visible condition
+
+[B]4.8.2[/B]
+
+- Fix addon focus issue
+- Fix Formed/Born overlap issue
+- Fix exiting from settings focus problem
+
 [B]4.8.1[/B]
 
 - Fix missing label in view id=50

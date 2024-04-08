@@ -290,7 +290,7 @@
 						<focusedcolor>white</focusedcolor>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
-						<onclick>Skin.SelectBool(31021, 31030|TitleFormat_nothing, 31036|TitleFormat_only, 31035|TitleFormat_1st, 31034|TitleFormat_2nd)</onclick>
+						<onclick>Skin.SelectBool(31021, 31030|TitleFormat_nothing, 31036|TitleFormat_only, 31034|TitleFormat_1st, 31035|TitleFormat_2nd)</onclick>
 						<label2>$VAR[ShowOriginalName]</label2>
 					</control>
 				</control>
@@ -490,7 +490,6 @@
 						<selected>Skin.HasSetting(HomeMenuNoMovieButton)</selected>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
-						<enable>Library.HasContent(Movies)</enable>
 					</control>
 					<control type="radiobutton" id="223">
 						<description>Hide TV Shows Button</description>
@@ -506,7 +505,6 @@
 						<selected>Skin.HasSetting(HomeMenuNoTVShowButton)</selected>
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
-						<enable>Library.HasContent(TVShows)</enable>
 					</control>
 					<control type="radiobutton" id="224">
 						<description>Hide Music Button</description>
